@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Added Google Font */
+
 @font-face {
     src: url(fonts/Inter-Regular.ttf);
     font-family: Inter;
@@ -21,11 +23,16 @@ body {
     text-align: center;
 }
 
+
+
 .main-container {
     display: flex;
     flex-direction: column;
     margin: 1.6875em;
 }
+
+/* Top section, including color picker,
+scheme selector, and button */
 
 .top-section {
     display: flex;
@@ -70,6 +77,8 @@ body {
     width: 100%;
 }
 
+/* Color displays */
+
 .color-section-container {
     display: flex;
     flex-direction: column;
@@ -88,6 +97,8 @@ body {
     /* display: grid;
         grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr; */
 }
+
+/* Media queries for anything from tablet screen size above */
 
 @media (min-width: 768px) {
 
@@ -114,6 +125,3 @@ body {
         width: 110px;
         height: 550px;
     }
-
-    #scheme-button {}
-}
