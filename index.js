@@ -6,9 +6,7 @@ let colorArray = []
 
 // Calls getColors function when button is clicked
 
-schemeButton.addEventListener("click", function () {
-    getColors()
-})
+schemeButton.addEventListener("click", getColors)
 
 // Stores color picker selected value and removes the "#" 
 // character, since the URL parameter won't accept a value with it
